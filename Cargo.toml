@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
-halo2_proofs = "0.2.0"
+halo2_proofs = { version = "0.2.0", features=["dev-graph"]}
+plotters = "0.3.1"
